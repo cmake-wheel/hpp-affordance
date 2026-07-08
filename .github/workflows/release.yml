@@ -3,7 +3,7 @@ name: Release on GitHub & PyPI
 on:
   push:
     tags:
-      - "v*"
+      - "v*.c*"
     branches:
       - cmeel
   pull_request:
